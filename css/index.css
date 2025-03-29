@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.roboto-fonts {
+  font-family: "Roboto", sans-serif;
+}
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+}
+.phone-section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 0px 0px; */
+  border-bottom: 1px solid #ebebeb;
+  height: 70px;
+}
+.nav-bar {
+  align-items: center;
+  padding: 10px;
+  /* width: 1920px; */
+  height: 130px;
+}
+.about {
+  background-image: url(../images/Background-img.png);
+  /* opacity: 10%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 648px;
+  width: 1920px;
+  gap: 20px;
+  /* justify-content: space-between; */
+  display: flex;
+  flex-direction: row;
+}
+.icons {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+.lang {
+  display: flex;
+}
+.main1 {
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+}
+.main2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 10px;
+}
+.nav-links > li > a {
+  text-decoration: none;
+  color: black;
+}
+.language-section {
+  display: flex;
+
+  align-items: center;
+  gap: 5px;
+}
+.image {
+  background-image: url(../images/big\ image.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  align-content: center;
+  padding: 50px;
+}
+.image > h2 {
+  font-weight: 400;
+  font-size: 48px;
+  color: black;
+  line-height: 60px;
+  letter-spacing: 0%;
+  height: 120px;
+  width: 613px;
+}
+.image > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  line-height: 3opx;
+  letter-spacing: 2%;
+  height: 64px;
+  width: 650px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #fcd900;
+  gap: 10px;
+  border: none;
+}
+.button > p {
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Inter", sans-serif;
+  width: 119px;
+  height: 17px;
+  opacity: 70%;
+}
+.button > b {
+  width: 159px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.buttons {
+  display: flex;
+  /* justify-content: center; */
+  gap: 20px;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  line-height: 32px;
+  letter-spacing: 0%;
+  height: 32px;
+  width: 122px;
+  opacity: 30%;
+  left: 260px;
+  size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.heading2 {
+  font-weight: 400;
+  font-size: 48px;
+  color: black;
+  line-height: 60px;
+  letter-spacing: 0%;
+  top: 1176px;
+  height: 120px;
+  width: 718px;
+  left: 257px;
+  size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+.para {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  line-height: 24px;
+  letter-spacing: 2%;
+  height: 188px;
+  width: 682px;
+  font-family: "Roboto", sans-serif;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  /* width: 80%; */
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+/* .whatwedo {
+  display: flex;
+  width: 50px;
+} */
+.services {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  gap: 20px;
+  padding: 50px; */
+}
+.class2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px; */
+}
+.image2 {
+  display: flex;
+  flex-direction: row;
+}
+.image3 {
+  display: flex;
+  flex-direction: row;
+  background-image: url(./images/Meeting\ Background.png);
+  margin-bottom: 12px solid yellow;
+  border-radius: 2px;
+}
+.erkan {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 20px;
+  padding: 50px;
+*/
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
